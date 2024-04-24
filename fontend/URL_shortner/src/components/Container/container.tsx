@@ -20,9 +20,9 @@ const conatiner: React.FunctionComponent<conatinerProps> = () => {
   };
   const fetchData = async () => {
     const response = await axios.get(`${serverurl}/shorturl`);
-    console.log("The server gets data:", response);
+
     setData(response.data);
-    console.log("The data :", data);
+
     setreload(false);
   };
 
