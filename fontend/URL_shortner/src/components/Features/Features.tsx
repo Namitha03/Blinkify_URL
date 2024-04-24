@@ -1,5 +1,3 @@
-import React from "react";
-
 const FeatureContainer = () => {
   return (
     <div id="features" className="container mx-auto py-8">

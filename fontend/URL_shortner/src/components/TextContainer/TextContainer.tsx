@@ -1,5 +1,4 @@
-import React from "react";
-import bgGif from "../../assets/url.gif"; // Adjust the path as needed
+import bgGif from "../../assets/url.gif";
 
 const TextContainer = () => {
   return (
